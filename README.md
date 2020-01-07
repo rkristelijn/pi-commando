@@ -75,4 +75,4 @@ sudo docker info
 
 `docker run --rm -it browsh/browsh`
 
-` "exec format error"` due cpu architecture mismatch. Cloning repo, changing base image, no good.
+` "exec format error"` due cpu architecture mismatch. Cloning [repo](https://github.com/browsh-org/browsh), changing base image, no good.
