@@ -77,6 +77,8 @@ sudo docker info
 
 ` "exec format error"` due cpu architecture mismatch. Cloning [repo](https://github.com/browsh-org/browsh), changing base image, no good.
 
+Just for good measures, I installed browsh on my mac.. needed to install firefox too, however some words are clipped and you need a mouse to navigate. Seems like browsh is not for this use case.
+
 ## Install links2
 
 `sudo apt-get install links2`
