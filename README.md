@@ -15,12 +15,27 @@ I've already set the language to US and also the keyboard layout to US in Noobs,
 
 See [the documentation](https://www.raspberrypi.org/documentation/configuration/security.md)
 
-- Disable raspbian user
-- Create new User
+- Create new user alice
+  - `adduser alice`
+  - `sudo usermod -a -G adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,gpio,i2c,spi alice`
+  - add `alice ALL=(ALL) NOPASSWD: ALL` to end of the file `sudo visudo` to avoid having to type your password
+- Disable pi user
+  - `deluser pi`
 
 # Things I want to do
 
-- Fullstack JavaScript development (probably using vim)
 - Surf the web (lynx? or something with JavaScript support)
+- Fullstack JavaScript development (probably using vim)
 - Read and respond to my e-mail
 - Do my admin
+
+# Surfing the web
+
+So what can I do with lynx?
+
+| site | experience |
+| --- | --- |
+| google.com | seems ok |
+| github.com | at this stage I started look for the setting 'cookies: accept all', seems to work, pages are a bit long due to the menus |
+| dev.to | I can read posts, but login seems to be impossible, probably is in the 'loading...' section where javascript should kick in |
+| gmail.com | meh. after login, says need JavaScript |
