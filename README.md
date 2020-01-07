@@ -39,3 +39,34 @@ So what can I do with lynx?
 | github.com | at this stage I started look for the setting 'cookies: accept all', seems to work, pages are a bit long due to the menus |
 | dev.to | I can read posts, but login seems to be impossible, probably is in the 'loading...' section where javascript should kick in |
 | gmail.com | meh. after login, says need JavaScript |
+
+Meh.
+
+Let's try to get browsh up and running.
+
+Install docker [source](https://www.docker.com/blog/happy-pi-day-docker-raspberry-pi/)
+
+add lines in my /etc/default/locale file: (caused by sshing into pi from mac?)
+
+```
+LC_CTYPE="en_US.UTF-8"
+LC_ALL="en_US.UTF-8"
+LANG="en_US.UTF-8"
+```
+
+```
+sudo apt-get install apt-transport-https ca-certificates software-properties-common -y
+curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh\
+sudo usermod -aG docker alice
+sudo curl https://download.docker.com/linux/raspbian/gpg
+```
+add `deb https://download.docker.com/linux/raspbian/ stretch stable` to `sources.list`
+
+`sudo vim /etc/apt/sources.list`
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo systemctl start docker.service
+sudo docker info
+```
