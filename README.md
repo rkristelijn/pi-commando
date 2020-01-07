@@ -38,7 +38,7 @@ So what can I do with lynx?
 | google.com | seems ok |
 | github.com | at this stage I started look for the setting 'cookies: accept all', seems to work, pages are a bit long due to the menus |
 | dev.to | I can read posts, but login seems to be impossible, probably is in the 'loading...' section where javascript should kick in |
-| gmail.com | meh. after login, says need JavaScript |
+| gmail.com | meh. after login, says need JavaScript. I could try [cmdg](https://github.com/ThomasHabets/cmdg) |
 
 Meh.
 
@@ -71,8 +71,12 @@ sudo systemctl start docker.service
 sudo docker info
 ```
 
-## Install browsh
+## Install browsh - doesn't work
 
 `docker run --rm -it browsh/browsh`
 
 ` "exec format error"` due cpu architecture mismatch. Cloning [repo](https://github.com/browsh-org/browsh), changing base image, no good.
+
+## Install links2
+
+`sudo apt-get install links2`
