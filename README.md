@@ -80,3 +80,5 @@ sudo docker info
 ## Install links2
 
 `sudo apt-get install links2`
+
+-> no JavaScript support
