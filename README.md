@@ -44,7 +44,7 @@ Meh.
 
 Let's try to get browsh up and running.
 
-Install docker [source](https://www.docker.com/blog/happy-pi-day-docker-raspberry-pi/)
+## Install docker [source](https://www.docker.com/blog/happy-pi-day-docker-raspberry-pi/)
 
 add lines in my /etc/default/locale file: (caused by sshing into pi from mac?)
 
@@ -70,3 +70,9 @@ sudo apt-get upgrade
 sudo systemctl start docker.service
 sudo docker info
 ```
+
+## Install browsh
+
+`docker run --rm -it browsh/browsh`
+
+` "exec format error"` due cpu architecture mismatch. Cloning repo, changing base image, no good.
