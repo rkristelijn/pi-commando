@@ -42,7 +42,7 @@ So what can I do with lynx?
 
 Meh.
 
-Let's try to get browsh up and running.
+Let's try to get browsh up and running. (spoiler: doesn't work! [see here](https://github.com/browsh-org/browsh/issues/305) )
 
 ## Install docker [source](https://www.docker.com/blog/happy-pi-day-docker-raspberry-pi/)
 
