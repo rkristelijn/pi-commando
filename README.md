@@ -106,7 +106,9 @@ Just for good measures, I installed browsh on my mac.. needed to install firefox
 
 - [tips for plugins](https://freshman.tech/vim-javascript/)
 - [working with split-screen](https://linuxhint.com/how-to-use-vim-split-screen/)
-- [more usefull tips, like NERDtree](https://chromatichq.com/blog/working-vim-never-leave-your-terminal)
+- [more usefull tips, like NERDtree](https://chromatichq.com/blog/working-vim-never-leave-your-terminal) using :NERDtree
+- [select copy paste in bash](https://askubuntu.com/questions/302263/selecting-text-in-the-terminal-without-using-the-mouse) using xclip
+- [terminal in vim window](https://stackoverflow.com/questions/1236563/how-do-i-run-a-terminal-inside-of-vim) using `:term` or `:vert term` and `CTRL-D` 
 
 Install [vim-plug](https://github.com/junegunn/vim-plug)
 
