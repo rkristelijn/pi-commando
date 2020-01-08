@@ -103,9 +103,9 @@ Just for good measures, I installed browsh on my mac.. needed to install firefox
 -> no JavaScript support
 
 # Using vim for JavaScript Development
-
-- [tips for plugins](https://freshman.tech/vim-javascript/)
+- [generic editing](https://linuxhint.com/vim_shortcuts/)
 - [working with split-screen](https://linuxhint.com/how-to-use-vim-split-screen/) open windows `CTRL-W`, `v`|`s` ; navigate using `CTRL-W`, `h`|`j`|`k`|`l`
+- [tips for plugins](https://freshman.tech/vim-javascript/)
 - [more usefull tips, like NERDtree](https://chromatichq.com/blog/working-vim-never-leave-your-terminal) using :NERDtree
 - [select copy paste in bash](https://askubuntu.com/questions/302263/selecting-text-in-the-terminal-without-using-the-mouse) using xclip
 - [terminal in vim window](https://stackoverflow.com/questions/1236563/how-do-i-run-a-terminal-inside-of-vim) using `:term` or `:vert term` and `CTRL-D` 
@@ -126,3 +126,6 @@ Add to ~/.vimrc
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
+"any plugins can be pasted here, run :PlugInstall to run the installer
+call plug#end()
+```
