@@ -31,6 +31,22 @@ See [the documentation](https://www.raspberrypi.org/documentation/configuration/
 
 # Surfing the web
 
+[source](https://en.wikipedia.org/wiki/Text-based_web_browser) says:
+
+|Browser | JS Support | Keyboard navigation | Runs on Raspberry Pi (ARM) |
+|---|---|---|---|
+| Charlotte Web Browser  |? | ? | ? |
+| Emacs/W3 & EWW for GNU Emacs  |? | ? | ? |
+| Line Mode Browser (by Tim Berners-Lee)  |? | ? | ? |
+| Links  |? | ? | ? |
+| ELinks  |? | ? | ? |
+| Lynx  | <span style="color:red">No</span> | Yes | Yes |
+| w3m |? | ? | ? |
+| WebbIE |? | ? | ? |
+| browsh | Yes | <span style="color:red">No</span> |  <span style="color:red">No</span> |
+| Links2 | <span style="color:red">No</span> | Yes | Yes |
+
+
 So what can I do with lynx?
 
 | site | experience |
