@@ -101,3 +101,28 @@ Just for good measures, I installed browsh on my mac.. needed to install firefox
 `sudo apt-get install links2`
 
 -> no JavaScript support
+
+# Using vim for JavaScript Development
+
+[source](https://freshman.tech/vim-javascript/)
+
+Install [vim-plug](https://github.com/junegunn/vim-plug)
+
+By executing:
+
+```bash
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+
+Add to ~/.vimrc
+```
+" Specify a directory for plugins
+" - For Neovim: stdpath('data') . '/plugged'
+" - Avoid using standard Vim directory names like 'plugin'
+call plug#begin('~/.vim/plugged')
+
+" Initialize plugin system
+call plug#end()
+```
