@@ -106,6 +106,7 @@ Just for good measures, I installed browsh on my mac.. needed to install firefox
 
 - [tips for plugins](https://freshman.tech/vim-javascript/)
 - [working with split-screen](https://linuxhint.com/how-to-use-vim-split-screen/)
+- [more usefull tips, like NERDtree](https://chromatichq.com/blog/working-vim-never-leave-your-terminal)
 
 Install [vim-plug](https://github.com/junegunn/vim-plug)
 
