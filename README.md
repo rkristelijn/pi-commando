@@ -104,7 +104,8 @@ Just for good measures, I installed browsh on my mac.. needed to install firefox
 
 # Using vim for JavaScript Development
 
-[source](https://freshman.tech/vim-javascript/)
+- [tips for plugins](https://freshman.tech/vim-javascript/)
+- [working with split-screen](https://linuxhint.com/how-to-use-vim-split-screen/)
 
 Install [vim-plug](https://github.com/junegunn/vim-plug)
 
